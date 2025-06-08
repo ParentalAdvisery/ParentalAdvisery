@@ -21,5 +21,22 @@ Current flagship project: *Purge of the Crescent Veil*.
 
 ---
 
-**Founder**: ParentalAdvisery  
-**Status**: Private development — public repos coming soon.
+### Tech Stack
+
+- 🖥️ C++ / Custom Engine Architecture
+- 🎮 Unity 6.1 / C# Integration
+- 🧠 AI-driven content pipelines
+- ⚙️ Procedural generation frameworks
+
+---
+
+### Links
+
+- 🚀 [GitHub Profile](https://github.com/ParentalAdvisery)
+- 🎥 *(Coming Soon)* Blackframe AI Devlog YouTube
+- 🌐 *(Coming Soon)* Official Website
+- 🛠️ *(Coming Soon)* Blackframe Engine Public Repo
+
+---
+
+© 2025 Blackframe AI. All rights reserved.
