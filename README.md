@@ -34,7 +34,7 @@ Current flagship project: *Purge of the Crescent Veil*.
 
 - 🚀 [GitHub Profile](https://github.com/ParentalAdvisery)
 - 🎥 *(Coming Soon)* Blackframe AI Devlog YouTube
-- 🌐 *(Coming Soon)* Official Website
+- 🌐 Official Website: [https://blackframeai.org](https://blackframeai.org)
 - 🛠️ *(Coming Soon)* Blackframe Engine Public Repo
 
 ---
