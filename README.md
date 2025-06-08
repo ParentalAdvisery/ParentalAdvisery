@@ -1,16 +1,14 @@
-## Hi there 👋
+![Blackframe AI Banner](BlackFrameBanner.jpg)
 
-<!--
-**ParentalAdvisery/ParentalAdvisery** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Blackframe AI
 
-Here are some ideas to get you started:
+Building AI-powered game engines and original games.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🏴 Current flagship project: *Purge of the Crescent Veil* (commercial)  
+🛠️ Custom C++ / Unity hybrid engine (future open source)  
+🤖 AI-driven development pipelines and procedural tooling
+
+---
+
+**Founder**: ParentalAdvisery  
+**Status**: Private development — public repos coming soon.
