@@ -1,13 +1,23 @@
-![Blackframe AI Banner](BlackFrameBanner.jpg)
+![Blackframe AI Banner](assets/BlackFrameBanner.jpg)
 
 # Blackframe AI
 ### AI-Powered Game Engines & Original Games
 
-Building AI-powered game engines and original games.
+---
 
-🏴 Current flagship project: *Purge of the Crescent Veil* (commercial)  
-🛠️ Custom C++ / Unity hybrid engine (future open source)  
-🤖 AI-driven development pipelines and procedural tooling
+### Current Projects
+
+- 🏴 *Purge of the Crescent Veil* — commercial flagship game
+- 🛠️ Custom C++ / Unity hybrid engine — future open source release
+- 🤖 AI-driven development pipelines & procedural tooling
+
+---
+
+### About Blackframe AI
+
+Blackframe AI is an independent studio building next-generation AI-powered game engines and original titles.  
+Our focus is on integrating cutting-edge AI into core game systems, engine architecture, and procedural design.  
+Current flagship project: *Purge of the Crescent Veil*.
 
 ---
 
