@@ -8,7 +8,7 @@
 ### Current Projects
 
 - 🏴 *Purge of the Crescent Veil* — commercial flagship game
-- 🛠️ Custom C++ / Unity hybrid engine — future open source release
+- 🛠️ Custom C++ engine — future open source release
 - 🤖 AI-driven development pipelines & procedural tooling
 
 ---
