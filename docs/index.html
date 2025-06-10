@@ -2,77 +2,103 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BlackFrame AI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BlackFrame AI — AI-Powered Game Engines & Original Games</title>
+
+  <!-- SEO Meta -->
+  <meta name="description" content="BlackFrame AI — AI-powered game engines and original games. Official studio website.">
+
+  <!-- Open Graph (Facebook, Discord, LinkedIn) -->
+  <meta property="og:title" content="BlackFrame AI — AI-Powered Game Engines & Original Games">
+  <meta property="og:description" content="AI-powered game engines and original games. Official studio website.">
+  <meta property="og:url" content="https://www.blackframeai.org/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://www.blackframeai.org/assets/BlackFrameBanner.jpg">
+  <meta property="og:image:width" content="1280">
+  <meta property="og:image:height" content="640">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="BlackFrame AI — AI-Powered Game Engines & Original Games">
+  <meta name="twitter:description" content="AI-powered game engines and original games. Official studio website.">
+  <meta name="twitter:image" content="https://www.blackframeai.org/assets/BlackFrameBanner.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <!-- Manifest -->
+  <link rel="manifest" href="/manifest.json">
 
   <style>
-    /* Prevent flashbang */
-    html, body {
+    * {
       margin: 0;
       padding: 0;
-      background-color: #000;
-    }
-
-    /* Fade animations for logo and text only */
-    @keyframes fadeIn {
-      0% { opacity: 0; }
-      100% { opacity: 1; }
-    }
-
-    /* Breathing movement of tracer lines */
-    @keyframes tracerFlow {
-      0% { background-position: 0 0; }
-      100% { background-position: 1000px 1000px; }
+      box-sizing: border-box;
     }
 
     body {
-      font-family: Arial, sans-serif;
+      height: 100vh;
+      background-color: #000;
       color: #f0f0f0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      overflow: hidden;
+      position: relative;
+    }
+
+    body::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image: url('/assets/tracer.svg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      opacity: 0.035;
+      transform: scale(1);
+      animation: pulseGlow 6s ease-in-out infinite;
+      z-index: 0;
+    }
+
+    body::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image: url('/assets/bg_blackleather_processed.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      z-index: 1;
+    }
+
+    main {
+      position: relative;
+      z-index: 2;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      min-height: 100vh;
-      text-align: center;
-      background-image: url('/assets/bg_blackleather_processed.jpg');
-      background-size: cover;
-      background-position: center;
-      position: relative;
-      overflow: hidden;
+      height: 100vh;
+      animation: fadeIn 2s ease forwards;
     }
 
-    .tracer-overlay {
-      position: absolute;
-      top: 0; left: 0;
-      width: 100%;
-      height: 100%;
-      background-image: url('/assets/tracer.svg');
-      background-repeat: repeat;
-      background-size: 200%;
-      background-position: 0 0;
-      opacity: 0.08;
-      animation: tracerFlow 60s linear infinite;
-      pointer-events: none;
-      z-index: 1;
-    }
-
-    .content {
-      position: relative;
-      z-index: 2;
-    }
-
-    .logo {
+    img {
       max-width: 400px;
       height: auto;
       margin-bottom: 0.5em;
       animation: fadeIn 2s ease forwards;
     }
 
-    .description {
+    p {
       font-size: 1.2em;
       max-width: 600px;
       margin: 0 auto;
       animation: fadeIn 3s ease forwards;
+    }
+
+    a {
+      color: #00afff;
+      text-decoration: none;
     }
 
     .footer {
@@ -81,28 +107,37 @@
       font-size: 0.9em;
       color: #666;
       animation: fadeIn 4s ease forwards;
-      z-index: 2;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes pulseGlow {
+      0%, 100% {
+        transform: scale(1);
+        opacity: 0.035;
+      }
+      50% {
+        transform: scale(1.02);
+        opacity: 0.06;
+      }
     }
   </style>
 </head>
 
 <body>
-  <div class="tracer-overlay"></div>
-
-  <div class="content">
-    <img src="/assets/blackflamelogo.png" alt="BlackFrame AI Logo" class="logo" />
-
-    <p class="description">
+  <main>
+    <img src="/assets/blackflamelogo.png" alt="BlackFrame AI Logo">
+    <p>
       AI-powered game engines & original games.<br>
       Our official website is coming soon.<br>
-      <a href="https://github.com/BlackFrameAI" target="_blank" style="color: #00afff; text-decoration: none;">
+      <a href="https://github.com/BlackFrameAI" target="_blank">
         Follow us on GitHub for updates!
       </a>
     </p>
-  </div>
-
-  <div class="footer">
-    © 2025 BlackFrame AI Studio
-  </div>
+    <div class="footer">© 2025 BlackFrame AI Studio</div>
+  </main>
 </body>
 </html>
