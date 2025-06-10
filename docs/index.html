@@ -46,35 +46,25 @@
       top: 0; left: 0;
       width: 100%;
       height: 100%;
-      background: url('/assets/tracer.svg') center center / cover no-repeat;
+      background: url('/assets/tracer_animated_glow.svg') center center / cover no-repeat;
       z-index: 0;
-      opacity: 0.8;
-      pointer-events: none;
-    }
-    
-    .circuit-overlay {
-      position: absolute;
-      top: 0; left: 0;
-      width: 100%;
-      height: 100%;
-      opacity: 0.4;
+      opacity: 0.5;
       pointer-events: none;
       mix-blend-mode: screen;
-      z-index: 1;
 
-  /* Mask to HIDE behind the logo shape */
-  -webkit-mask-image: url('/assets/blackflame_logo_cleaned.svg');
-  -webkit-mask-position: center;
-  -webkit-mask-size: 300px auto;
-  -webkit-mask-repeat: no-repeat;
-  -webkit-mask-composite: destination-out;
+      -webkit-mask-image: url('/assets/blackflame_logo_cleaned.svg');
+      -webkit-mask-position: center;
+      -webkit-mask-size: 320px auto;
+      -webkit-mask-repeat: no-repeat;
+      -webkit-mask-composite: destination-out;
 
-  mask-image: url('/assets/blackflame_logo_cleaned.svg');
-  mask-position: center;
-  mask-size: 300px auto;
-  mask-repeat: no-repeat;
-  mask-composite: exclude;
-}  
+      mask-image: url('/assets/blackflame_logo_cleaned.svg');
+      mask-position: center;
+      mask-size: 320px auto;
+      mask-repeat: no-repeat;
+      mask-composite: exclude;
+    }
+
     .container {
       position: relative;
       z-index: 1;
@@ -90,7 +80,6 @@
     .logo {
       max-width: 400px;
       height: auto;
-      filter: drop-shadow(0 0 8px #00bbff80);
       animation: glowPulse 8s ease-in-out infinite;
     }
 
@@ -134,9 +123,8 @@
   </style>
 </head>
 <body>
-  <div class="circuit-overlay"></div>
   <div class="container">
-    <img src="/assets/blackflamelogo.png" alt="BlackFrame AI Logo" class="logo">
+    <img src="/assets/blackflame_logo_animated.svg" alt="BlackFrame AI Logo" class="logo">
     <p class="description">
       AI-powered game engines & original games.<br>
       Our official website is coming soon.<br>
