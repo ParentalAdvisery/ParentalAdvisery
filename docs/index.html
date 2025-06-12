@@ -7,6 +7,8 @@
 
   <!-- SEO Meta -->
   <meta name="description" content="BlackFrame AI — AI-powered game engines and original games. Official studio website.">
+
+  <!-- Open Graph -->
   <meta property="og:title" content="BlackFrame AI — AI-Powered Game Engines & Original Games">
   <meta property="og:description" content="AI-powered game engines and original games. Official studio website.">
   <meta property="og:url" content="https://www.blackframeai.org/">
@@ -14,10 +16,14 @@
   <meta property="og:image" content="https://www.blackframeai.org/assets/BlackFrameBanner.jpg">
   <meta property="og:image:width" content="1280">
   <meta property="og:image:height" content="640">
+
+  <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="BlackFrame AI — AI-Powered Game Engines & Original Games">
   <meta name="twitter:description" content="AI-powered game engines and original games. Official studio website.">
   <meta name="twitter:image" content="https://www.blackframeai.org/assets/BlackFrameBanner.jpg">
+
+  <!-- Favicon + Manifest -->
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="manifest" href="/manifest.json">
 
@@ -27,7 +33,9 @@
       padding: 0;
       height: 100%;
       font-family: Arial, sans-serif;
-      background: url('/assets/bg_blackleather_processed.jpg') center center / cover no-repeat #000;
+      background: 
+        url('/assets/bg_blackleather_processed.jpg') center center / cover no-repeat,
+        #000;
       overflow: hidden;
       color: #f0f0f0;
     }
@@ -57,21 +65,10 @@
       animation: fadeIn 3s ease forwards;
     }
 
-    .logo-wrapper {
-      position: relative;
-      width: 400px;
-      height: 400px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      overflow: visible;
-    }
-
-    .logo-wrapper object {
-      width: 100%;
-      height: 100%;
-      transform: translateY(-10%); /* ← MANUAL CENTER OFFSET ADJUSTMENT */
-      object-fit: contain;
+    .logo {
+      max-width: 400px;
+      height: auto;
+      animation: glowPulse 8s ease-in-out infinite;
     }
 
     .description {
@@ -102,21 +99,26 @@
       from { opacity: 0; }
       to { opacity: 1; }
     }
+
+    @keyframes glowPulse {
+      0%, 100% {
+        filter: drop-shadow(0 0 6px #0088ff55);
+      }
+      50% {
+        filter: drop-shadow(0 0 12px #a0d8ff);
+      }
+    }
   </style>
 </head>
 
 <body>
   <div class="container">
-    <div class="logo-wrapper">
-      <object type="image/svg+xml" data="/assets/blackflame_logo_animated.svg"></object>
-    </div>
-
+    <img src="/assets/blackflame_logo_animated.svg" alt="BlackFrame AI Logo" class="logo">
     <p class="description">
       AI-powered game engines & original games.<br>
       Our official website is coming soon.<br>
       <a href="https://github.com/BlackFrameAI" target="_blank">Follow us on GitHub for updates!</a>
     </p>
-    
     <div class="footer">© 2025 BlackFrame AI Studio</div>
   </div>
 </body>
