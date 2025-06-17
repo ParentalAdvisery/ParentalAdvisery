@@ -1,42 +1,46 @@
 ![Blackframe AI Banner](assets/BlackFrameBanner.jpg)
 
-# Blackframe AI
-### AI-Powered Game Engines & Original Games
+# BlackFrame AI
+
+### Applied Artificial Intelligence Studio — Proprietary Research & Development
 
 ---
 
-### Current Projects
+**BlackFrame AI** is a fully independent advanced AI research studio focused on applying large-scale artificial intelligence systems to future game development, content pipelines, and interactive experiences.
 
-- 🏴 *Purge of the Crescent Veil* — commercial flagship game
-- 🛠️ Custom C++ engine — future open source release
-- 🤖 AI-driven development pipelines & procedural tooling
+We build proprietary technology designed to redefine the creative, technical, and economic boundaries of artificial intelligence in entertainment.
 
 ---
 
-### About Blackframe AI
+## 🔒 Current Development Status
 
-Blackframe AI is an independent studio building next-generation AI-powered game engines and original titles.  
-Our focus is on integrating cutting-edge AI into core game systems, engine architecture, and procedural design.  
-Current flagship project: *Purge of the Crescent Veil*.
+🚧 Primary project under development:  
+**Purge of the Crescent Veil** — experimental large-scale interactive project under confidential development.
 
----
-
-### Tech Stack
-
-- 🖥️ C++ / Custom Engine Architecture
-- 🎮 Unity 6.1 / C# Integration
-- 🧠 AI-driven content pipelines
-- ⚙️ Procedural generation frameworks
+🚧 Internal proprietary engine architecture is active and progressing under locked constraints.  
+🚧 Whitepapers, research, and public-facing devlogs will be released when milestones are cleared for publication.
 
 ---
 
-### Links
+## 🔬 Studio Focus Areas
 
-- 🚀 [GitHub Profile](https://github.com/ParentalAdvisery)
-- 🎥 *(Coming Soon)* Blackframe AI Devlog YouTube
-- 🌐 Official Website: [https://blackframeai.org](https://blackframeai.org)
-- 🛠️ *(Coming Soon)* Blackframe Engine Public Repo
+- AI-accelerated design frameworks
+- Proprietary game engine development
+- Advanced simulation systems
+- Procedural content generation pipelines
+- Autonomous scaffolded code synthesis
+- Applied AI ethics discipline
 
 ---
 
-© 2025 Blackframe AI. All rights reserved.
+## 📫 Contact
+
+For verified inquiries:  
+📩 support@blackframeai.org
+
+> *General public materials will be published as public-facing research becomes available.*
+
+---
+
+© 2025 BlackFrame AI Studio — All Rights Reserved.
+
